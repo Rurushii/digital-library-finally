@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>English</title>
+    <style>
+      /* Container styles */
+     a {
+      text-decoration: none;
+     }
+
+      body {
+        background-color: #b9f6ca;
+      }
+      
+      .container {
+        background-color: #b9f6ca;
+        padding: 20px;
+      }
+
+      /* Bookshelf styles */
+      .bookshelf {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+      }
+      
+      /* Book styles */
+      .book {
+        width: 150px;
+        height: 200px;
+        background-color: #a3e3b1;
+        border-radius: 5px;
+        padding: 10px;
+        text-align: center;
+        box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+      }
+      
+      /* Book title styles */
+      .book h2 {
+        font-size: 16px;
+        margin-top: 10px;
+      }
+      
+      /* Book image styles */
+      .book img {
+        max-width: 80%;
+        max-height: 80%;
+        margin: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="bookshelf">
+        <div class="book">
+          <img src="images/english.png" alt="Book 1">
+          <a href="books/english/english1.html">
+            <h2>Effect of Textual Aids on the Understanding of a Text</h2>
+          </a>
+        </div>
+        <div class="book">
+        <img src="images/english.png" alt="Book 2">
+          <a href="books/english/english2.html">
+          <h2>Approaches to Literary Criticism</h2>
+          </a>
+        </div>
+        <div class="book">
+         <img src="images/english.png" alt="Book 3">
+         <a href="books/english/english3.pdf">
+          <h2>Writing a Research Report</h2>
+         </a>
+        </div>
+        <!-- Add more books here -->
+      </div>
+    </div>
+  </body>
+</html>
+
